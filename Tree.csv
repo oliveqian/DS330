@@ -1,0 +1,46 @@
+﻿id,number,revenue
+Book,,
+Book.Art & Photography,,
+Book.Art & Photography.How-to Crafts,12,"2,711"
+Book.Art & Photography.Coffee-table,,
+Book.Art & Photography.Coffee-table.Photography,98,2309
+Book.Children's Books,,
+Book.Children's Books.Baby Books,12,16092
+Book.Children's Books.Age 3-5,,
+Book.Children's Books.Age 3-5.1st Readers,19,24514
+Book.Children's Books.Age 3-5.ABCs,45,17771
+Book.Children's Books.Age 3-5.Tolstoy for Tots,14,13295
+Book.Children's Books.Age 6-8,69,14046
+Book.Children's Books.Pre-Teen & Teen,57,18046
+Book.Computers & Internet,,
+Book.Computers & Internet.Troubleshooting,29,4527
+Book.Mystery,,
+Book.Mystery.Crime,,
+Book.Mystery.Crime.Fiction,82,11186
+Book.Mystery.Crime.True Crime,18,8790
+Book.Mystery.Spy,,
+Book.Mystery.Spy.True Spy,96,6516
+Book.Mystery.Spy.Other,74,3809
+Book.Nonfiction,,
+Book.Nonfiction.Health,,
+Book.Nonfiction.Health.Diet,21,3293
+Book.Nonfiction.Health.Fitness,79,6891
+Book.Nonfiction.History,12,1131
+Book.Magazine,,
+Book.Magazine.Fashion,,
+Book.Magazine.Fashion.Women's,91,7315
+Book.Magazine.Fashion.Men's,87,2222
+Book.Magazine.Home,42,2612
+Book.Magazine.Other,30,3140
+Book.Magazine.Sports,,
+Book.Magazine.Sports.Sport's illustrated,47,8009
+Book.Magazine.Sports.MMA,97,4257
+Book.Romance,,
+Book.Romance.Break up,,
+Book.Romance.Break up.Teen,14,6205
+Book.Romance.Break up.Young Adult,32,25193
+Book.Romance.Break up.Audiobooks,80,3045
+Book.Romance.Make Up,40,15050
+Book.Science Fiction & Fantasy,,
+Book.Science Fiction & Fantasy.Apocalyptic,7,10200
+Book.Science Fiction & Fantasy.Comic,44,3456
