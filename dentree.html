@@ -27,6 +27,7 @@
 
 </style>
 <body>
+//dropdown menu
 <div class = "dropdown">
     <button class = "dropbtn">Switch</button>
     <div class = "content">
@@ -43,21 +44,21 @@ var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height"),
     g = svg.append("g").attr("transform", "translate(40,0)");
-
+//set up the structure of tree
 var tree = d3.tree()
     .size([height, width - 160]);
-
+//set up function of identifying the hierarchy
 var stratify = d3.stratify()
     .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
-
+//read file
 d3.csv("Tree.csv", function(error, data) {
   if (error) throw error;
-
+//set root to be the first element from data
   var root = stratify(data)
 
 
   tree(root);
-
+//set linkage and display the data
   var link = g.selectAll(".link")
       .data(root.descendants().slice(1))
     .enter().append("path")
@@ -68,7 +69,7 @@ d3.csv("Tree.csv", function(error, data) {
             + " " + (d.parent.y + 100) + "," + d.parent.x
             + " " + d.parent.y + "," + d.parent.x;
       });
-
+//node setting
   var node = g.selectAll(".node")
       .data(root.descendants())
     .enter().append("g")
